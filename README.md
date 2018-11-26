@@ -1,0 +1,1 @@
+Clank is an attempt to decrypt the league replay file format.
