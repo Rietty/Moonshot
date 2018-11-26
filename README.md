@@ -22,3 +22,6 @@ Starts with 6 bytes with value of `52 49 4F 54 00 00` or `RIOT\0\0`. Check this 
 * ??? (4 bytes)
 * ??? (4 bytes)
 * ??? (4 bytes)
+
+### JSON Metadata
+Is located at the metadata offset indicated in the file header and is the indicated number of bytes long. Is formated in JSON and can simply be read as is. Contains information about stats, keyframes, chunks, game length and game verison.
