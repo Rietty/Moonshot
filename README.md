@@ -2,6 +2,7 @@
 ## Notes on decrypting the League of Legends replay file format.
 
 ### Data Types
+------
 Unsigned & Little Endian
 * Byte - 1 byte
 * Short - 2 bytes
@@ -9,6 +10,7 @@ Unsigned & Little Endian
 * Long - 8 bytes
 
 ### File Header
+------
 #### Magic Bytes
 Starts with 6 bytes with value of `52 49 4F 54 00 00` or `RIOT\0\0`. Check this to make sure it's a valid replay file.
 #### File signature.
