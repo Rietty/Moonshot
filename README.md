@@ -37,3 +37,6 @@ Is located at offset indicated by the file header. (Basically right after JSON m
 * Keyframe length/interval (Int) - Milliseconds
 * Variable byte length (Short) - Probably encryption key information.
 * Encryption key (Indicated length, string, encoded in some manner) - Required to decrypt chunk + keyframe data.
+
+### Encryption Key
+Is a variable length given in the data header (seems to be 32 bytes usually.) Base64 encode this in order to come up with some new key that is probably used.
